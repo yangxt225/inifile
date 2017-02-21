@@ -1,0 +1,10 @@
+Configuration File Management
+Read/Write .ini files
+
+version 0.2 2001/10/30 13:20:00
+Author: 陈志强 (czhiqiang@163.net)，modified from iodbc.
+
+　　该程序用于存取ini文件，很多代码取自iodbc -- 一个知名的 odbc driver manager ，如果有兴趣，你可以参考 iodbc 。
+　　该程序遵从GPL，但作者不对该代码引起的问题作任何担保。
+　　程序可以在类unix平台上运行，如果在MAC或者DOS上，可先 #define _MAC，然后再引用该代码。如果在win32平台上，请先去掉GetPrivateProfile*、WritePrivateProfile*的定义和实现，也可以用。
+　　没时间写文档，examples目录下有一些例子，可以参考，也可直接参考代码。
